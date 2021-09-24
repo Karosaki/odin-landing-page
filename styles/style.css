@@ -4,6 +4,8 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* header stuff */
+
 a {
     text-decoration: none;
 }
@@ -38,6 +40,8 @@ ul {
 
     padding-left: 8px;
     padding-right: 8px;
+
+    border-radius: 8px;
 }
 
 .header a:hover {
@@ -51,4 +55,51 @@ ul {
 
 .header .header-items {
     flex: 0 0 auto;
+}
+
+/* hero stuff */
+
+.hero {
+    display: flex;
+    padding: 150px 150px 0 150px;
+    background-color: #1f2937;
+
+}
+
+.hero-div-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 8px;
+}
+
+.hdl-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    flex-shrink: 0;
+}
+
+.hdl-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-div-right {
+    width: 50%;
+}
+
+.hdl-button {
+    border: none;
+
+    width: 100px;
+    height: 30px;
+    margin: 0 0 8px 0;
+    background-color: #3882F6;
+    color: #f9faf8;
+
+    font-weight: bold;
+    font-size: 14px;
+
+    border-radius: 6px;
 }
