@@ -115,11 +115,23 @@ ul {
 /* random information stuff */
 
 .random-information{
-
+    display: flex;
+    flex-direction: column;
 }
 
 .ri-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    /* this stops the text from breaking onto a new line*/
+    white-space: nowrap;
+
+    height: 125px;
+    padding: 0px; 
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937  ;
 }
 
 .ri-bottom{
@@ -135,5 +147,5 @@ ul {
 }
 
 .card-subtext{
-    
+
 }
