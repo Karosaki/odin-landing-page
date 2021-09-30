@@ -234,7 +234,7 @@ ul {
 
 .sign-up-text-secondary {
     color: #E5E7EB;
-    font-size: 16px;
+    font-size: 14px;
     font: lighter;
 }
 
@@ -252,4 +252,15 @@ ul {
     font-size: 14px;
 
     border-radius: 6px;
+}
+
+.footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 12px;
 }
