@@ -117,6 +117,7 @@ ul {
 .random-information{
     display: flex;
     flex-direction: column;
+    padding-bottom: 150px;
 }
 
 .ri-top{
@@ -135,17 +136,35 @@ ul {
 }
 
 .ri-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
 
+    gap: 10px;
 }
 
 .card-image{
-
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border-color: #3882F6;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .card-subtext{
-
+    text-align: center;
+    width: 150px;
+    font-size: 16px;
+    color: #1f2937;
 }
+
+/* quote section stuff */
