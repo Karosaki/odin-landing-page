@@ -168,3 +168,31 @@ ul {
 }
 
 /* quote section stuff */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 400px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 800px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:lighter;
+    font-style: italic;
+
+}
+
+.quote-author {
+    width: 800px;
+    display: flex;
+    justify-content: end;
+
+    color: #1f2937;
+    font-weight: bolder;
+}
